@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121212; /*Fundo escuro para contraste*/
+    color: white; /*Texto em branco*/
+    margin: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*Estilo para os títulos*/
+h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/*Estilo para parágrafos*/
+p {
+    color: white;
+    font-size: 18px;
+    max-width: 800px; /*Limita a largura máxima*/
+    padding: 20px; /*Adiciona espaço interno em volta do texto*/
+    border-radius: 10px; /*Bordas arredondadas*/
+}
+
+nav{ /*Estilo da faixa do cabeçalho*/
+    background-color: #ffffff;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo a{ /*Estilo da Logo PSGS do cabeçalho*/
+    text-decoration: none;
+    color: #00aeff;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+/*Configurações para deixar a distribuição dos nomes do cabeçalho corretamente*/
+nav ul{  
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{ 
+    margin-left: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color: #00aeff;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px 50px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
+
+/*Banner da página incial PSGS*/
+} .banner1{ 
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('background2.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Banner da página Quem Sou?*/
+.banner2 { 
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgb(0, 0, 0)),url('background5.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Banner da página Formação*/
+.banner3 { 
+    height: 150vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('background4.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner4{ /*Banner da página Portifólio*/
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('background6.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+    .banner5{ /*Banner da página Contato*/
+        height: 100vh;
+        background: linear-gradient( rgb(0, 0, 0), rgba(0, 0, 0, 0.541)),url('background3.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.texto .sub_titulo{
+    color: #00aeff;
+    font-size: 58px;
+    font-weight: 600;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #0666a7;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #006e99;
+}
+caption {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
